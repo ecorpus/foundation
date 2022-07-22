@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    font-family: Roboto;
+}
+
+div {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* unvisited link */
+a:link {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
+
+.header {
+    background-color: #1f2937;
+    height: 500px;
+
+}
+
+.header-top {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 140px 0px;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+}
+
+.logo-text {
+    size: 34px;
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.button {
+    padding: 0px;
+}
+
+.header-bottom {
+    display: flex;
+    padding: 0px;
+
+
+}
+
+.header-bottom>* {
+    flex: 1
+}
+
+.header-bottom-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header-title {
+    color: #f9f8f9;
+    font-size: 48px;
+    font-weight: 900;
+    margin: auto;
+}
+
+.header-p {
+    color: #e3dfe3;
+    font-size: 18px;
+}
+
+.sign-up {
+    padding: 10px 25px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.picture {
+    display: flex;
+    padding: 0px;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+}
