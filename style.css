@@ -71,7 +71,7 @@ a:active {
 .header-bottom {
     display: flex;
     padding: 0px;
-
+    gap: 10px;
 
 }
 
@@ -117,4 +117,141 @@ a:active {
     align-items: center;
     background-color: grey;
     color: white;
+}
+
+.middle-1{
+    height: 400px;
+    padding-left: 225px;
+    padding-right: 225px;
+}
+
+.middle1-all>*{
+    flex: 1
+}
+
+.middle1-all {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px
+}
+
+.middle1-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 50px 0px 50px 0px;
+}
+
+.middle1-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+}
+.middle1-image {
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-color: #3882f6;
+    border-style:solid;
+    border-width: 3px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.middle1-text{
+    padding: 0px;
+    text-align: center;
+    color: #a5a5a6;
+
+}
+
+.middle-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #e5e7eb;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    height: 350px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0px;
+}
+
+.thor {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p{
+    margin: 0px;
+}
+
+.middle-3 {
+    height: 300px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle3-all {
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+
+.middle-3>* {
+    padding:0px;
+}
+
+.middle3-text-header{
+    font-weight: 900;
+}
+
+.middle3-text {
+    font-weight: 200;
+    padding: 0px;
+    color: white;
+
+}
+
+.button2 {
+    padding: 0px;
+}
+
+.sign-up-2 {
+    padding: 10px 25px;
+    background: #3882f6;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+    background-color: #1f2937;
+    font-weight: 100;
+    font-size: smaller;
 }
